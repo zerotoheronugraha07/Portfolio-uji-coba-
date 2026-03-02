@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero Nugraha | Future Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <canvas id="particleCanvas"></canvas>
+    <div class="cursor-glow"></div>
+
+    <nav>
+        <div class="logo">HERO<span>.DEV</span></div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sertifikat">Certificates</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero-section">
+        <div class="glass-profile">
+            <img src="https://via.placeholder.com/150" alt="Hero" class="hero-img">
+            <h1>Hi, I'm <span id="typing-text"></span></h1>
+            <p class="subtitle">Siswa SMKN 1 NGASEM | XI TKJ 2</p>
+            <div class="badge">AI & Network Enthusiast</div>
+        </div>
+    </section>
+
+    <section id="sertifikat">
+        <h2 class="section-heading">Accomplishments</h2>
+        <div class="grid-container">
+            <div class="tilt-card" data-title="Dicoding AI">
+                <img src="https://via.placeholder.com/300x180" alt="Dicoding">
+                <div class="card-info"><h3>Dicoding AI</h3></div>
+            </div>
+            <div class="tilt-card" data-title="SIC Python">
+                <img src="https://via.placeholder.com/300x180" alt="Samsung Python">
+                <div class="card-info"><h3>SIC Python</h3></div>
+            </div>
+            <div class="tilt-card" data-title="SIC IoT">
+                <img src="https://via.placeholder.com/300x180" alt="Samsung IoT">
+                <div class="card-info"><h3>SIC IoT</h3></div>
+            </div>
+            <div class="tilt-card" data-title="Arek AI">
+                <img src="https://via.placeholder.com/300x180" alt="Arek AI">
+                <div class="card-info"><h3>Program Arek AI</h3></div>
+            </div>
+            <div class="tilt-card" data-title="Udinus">
+                <img src="https://via.placeholder.com/300x180" alt="Udinus">
+                <div class="card-info"><h3>Seminar Udinus</h3></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2 class="section-heading">Tech Stack</h2>
+        <div class="skills-wrapper">
+            <div class="skill-item"><span>C++</span></div>
+            <div class="skill-item"><span>Python</span></div>
+            <div class="skill-item"><span>Web Dev</span></div>
+            <div class="skill-item"><span>Networking</span></div>
+            <div class="skill-item"><span>Artificial Intelligence</span></div>
+        </div>
+        <p class="beginner-note">"Masih pemula & haus akan bimbingan kedepannya."</p>
+    </section>
+
+    <footer id="contact">
+        <div class="social-wrapper">
+            <a href="https://instagram.com/heronugraha" class="social-btn"><i class="fab fa-instagram"></i></a>
+            <a href="mailto:heronugrahadinata@gmail.com" class="social-btn"><i class="fas fa-envelope"></i></a>
+            <a href="https://wa.me/6285856600538" class="social-btn"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" class="social-btn"><i class="fab fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
